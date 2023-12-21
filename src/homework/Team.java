@@ -27,6 +27,6 @@ public class Team<T extends Player> {
     public static void main(String[] args) {
         // TODO: Farklı türlerde oyuncu nesneleri oluşturun ve Team sınıfını kullanarak bir takım oluşturun.
         // Takıma oyuncuları ekleyin ve takımın oyuncularını listeyin.
-s
+
     }
 }
