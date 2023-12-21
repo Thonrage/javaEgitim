@@ -1,0 +1,20 @@
+package generics;
+
+public class Test <T extends Comparable<T>> {
+
+    private T data;
+    private Test<T> next;
+
+    public Test(T d, Test<T> n) {
+        this.data = d;
+        this.next = n;
+    }
+
+    public T getData() {
+        return data;
+    }
+
+    public Test<T> getNext() {
+        return next;
+    }
+}
